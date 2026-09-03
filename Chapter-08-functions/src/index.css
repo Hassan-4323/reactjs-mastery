@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #fff;
 }
 
 html, body {
@@ -10,4 +9,17 @@ html, body {
     height: 100%;
     font-family: 'Helvetica Neue', sans-serif;
     background-color: #111;
+    color: white;
+}
+
+input{
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+.box{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
 }
