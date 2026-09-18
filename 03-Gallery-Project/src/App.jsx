@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import axios from 'axios'
 import { useEffect } from 'react';
+import Card from './components/Card';
 
 const App = () => {
 
@@ -39,10 +40,10 @@ const App = () => {
 
       <div className='flex justify-center gap-6 items-center p-4'>
         <button
-        style={{opacity: index == 1 ? 0.5 : 1}}
+          style={{ opacity: index == 1 ? 0.5 : 1 }}
           className='bg-amber-400 text-sm cursor-pointer active:scale-95 text-black rounded px-4 py-2 font-semibold'
           onClick={() => {
-            if(index>1){
+            if (index > 1) {
               setIndex(index - 1)
               setUserData([]);
             }
